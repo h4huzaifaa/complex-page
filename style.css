@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    background: #6c56e6;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    top: 15px;
+
+}
+.sides{
+    width: 50%;
+}
+.sides img{
+    width: 60%;
+    margin-left: 170px;
+    position: relative;
+    bottom: 20px;
+
+}
+.sides h2{
+    color: white;
+margin-top: 40px;
+margin-left: 10px;
+    font-size: 28px;
+}
+.one{
+    font-size: 12px;
+    margin: 13px 10px;
+    color: white;
+}
+.two{
+    font-size: 12px;
+    margin: 20px 10px;
+    color: white;
+}
+.sides button{
+    margin-left:10px ;
+    height: 35px;
+    width: 30%;
+    background-color: #6c56e6;
+}
+.hero{
+    display: flex;
+    background-color: rgb(227, 227, 227);
+}
+.left{
+margin: 30px 20px;
+    width: 25%;
+    background: #ffffff;
+    border-radius: 10px 0 10px 0;
+}
+.left img{
+    width: 40%;
+    margin-left: 20px;
+    }
+    .left p{
+        font-size: 15px;
+        margin-left: 20px;
+}
+.left a{
+    margin: 0 30px;
+    position: relative;
+    top: 10px;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 30px 0;
+    margin-left: 130px;
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+.right h2{
+    margin: 10px 0;
+    font-weight: 500;
+}
+.twoo p{
+margin: 10px 0;
+}
+.fa-map-marker{
+    color: #4124e6;
+}
+.fa-phone{
+    color: rgb(65, 222, 65);
+
+}
+.what{
+    color:rgb(65, 222, 65) ;
+}
+.threee p{
+    margin-top: 10px;
+    color: #4124e6;
+}
